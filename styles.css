@@ -1,0 +1,94 @@
+*{
+    list-style: none;
+    border-style: none;
+}
+
+html{
+    overflow-x: hidden;
+    background-color: rgb(248, 245, 239);
+}
+
+.btn{
+    font-family: roboto;
+    letter-spacing: -0.5px;
+    font-size: 12px;
+    padding: 6px 17px;
+    border-radius: 8px;
+    border: 0.5px solid rgb(175, 175, 175);
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    width: 63vw;
+    height: 7vh;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 18.5vw;
+    margin-right: 18.5vw;
+}
+
+.header-div1{
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+}
+
+.header-heading{
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.header-div1-item{
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.header-div2-list{
+    display: flex;
+}
+
+.header-div2-list-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    font-family: roboto;
+    font-size: 16px;
+}
+
+.header-div2-list-item-black{
+   border-radius: 7px;
+   background-color: #000000;
+}
+
+.header-div2-list-item-white{
+   color: #000000;
+   background-color: #ffffff00;
+}
+
+.landingpage-div-main{
+    font-family: Instrument serif;
+    font-size: 65px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 2.4px;
+}
+
+.landingpage{
+    max-height: 70vh;
+    margin-top: 24vh;
+    margin-bottom: 15vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.landingpage-div-para{
+    font-family: roboto;
+    font-size: 21px;
+    letter-spacing: -0.6px;
+
+}
