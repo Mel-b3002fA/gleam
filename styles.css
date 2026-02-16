@@ -145,3 +145,26 @@ html{
    letter-spacing: -0.4px;
    background-color: #ffffff00;
 }
+
+.features{
+    width: 100%;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.features-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.features-list-item{
+    width: 40vw;
+    height: 70vh;
+    border-radius: 20px;
+    
+}
+
+.features-list-item1{
+  background-color: #56ccff94;
+}
