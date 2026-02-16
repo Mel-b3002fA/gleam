@@ -9,12 +9,15 @@ html{
 }
 
 .btn{
-    font-family: roboto;
+    font-family: Inter;
     letter-spacing: -0.5px;
     font-size: 12px;
     padding: 6px 17px;
     border-radius: 8px;
     border: 0.5px solid rgb(175, 175, 175);
+    background-color: #ffffff00;
+    font-weight: 500;
+    letter-spacing: -0.5px;
 }
 
 .header-container{
@@ -72,10 +75,11 @@ html{
 
 .landingpage-div-main{
     font-family: Instrument serif;
-    font-size: 65px;
+    font-size: 68px;
     margin-top: 15px;
     margin-bottom: 15px;
     letter-spacing: 2.4px;
+    font-weight: 600;
 }
 
 .landingpage{
@@ -116,4 +120,26 @@ html{
     margin-left: 15px;
     color: #000000;
     background-color: rgb(246, 212, 255);
+}
+
+.platform{
+    width: 98vw;
+    text-align: center;
+}
+
+
+.platform-para{
+    font-family: Instrument serif;
+    font-size: 53px;
+    letter-spacing: 0.1px;
+    
+}
+
+.platform-btn{
+   width: 105px;
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 500;
+   letter-spacing: -0.4px;
+   background-color: #ffffff00;
 }
