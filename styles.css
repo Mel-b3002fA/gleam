@@ -363,3 +363,58 @@ html{
     letter-spacing: -0.5px;
     background-color: rgb(246, 212, 255);
 }
+
+.footer{
+    margin: 0 auto;
+}
+
+.footer-wrapper{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-div1{
+    width: 20vw;
+    margin-left: 30px;
+}
+
+.footer-div2-list{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.support-div1-main{
+    font-size: 25px;
+    margin: 0 auto;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.support-div1-para{
+        font-family: Inter;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    letter-spacing: -0.5px;
+}
+
+.footer-div2-list-header{
+    margin: 0 auto;
+     font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-div2-list-subtext{
+    font-family: Inter;
+    font-size: 14px;
+    color: rgb(52, 52, 52);
+    letter-spacing: -0.5px;
+}
