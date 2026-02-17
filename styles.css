@@ -277,6 +277,14 @@ html{
     height: 30vh;
 }
 
+.os-container-list-item2{
+    background-color: #56ccff94;
+}
+
+.os-container-list-item3{
+    background-color: #d5d7d7ac;
+}
+
 .os-container-list-item-header{
     margin: 0 auto;
      font-family: Inter;
