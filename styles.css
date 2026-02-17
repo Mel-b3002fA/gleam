@@ -6,6 +6,11 @@
 html{
     overflow-x: hidden;
     background-color: rgb(248, 245, 239);
+    padding: 0px;
+}
+
+.body{
+    margin: 0 auto;
 }
 
 .btn{
@@ -269,7 +274,7 @@ html{
 }
 
 .os-container-list-item-wrapper{
-    background-image: url(./img/c014b5bf-b014-4324-ba00-5f1e6745d566.jpg);
+    background-image: url(./img/_\ \(5\).jpeg);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 15px;
@@ -284,6 +289,7 @@ html{
 .os-container-list-item3{
     background-color: #d5d7d7ac;
 }
+
 
 .os-container-list-item-header{
     margin: 0 auto;
@@ -301,4 +307,59 @@ html{
     height: fit-content;
     font-family: inter;
     padding-left: 16px;
+}
+
+.support{
+    margin-top: 20vh;
+}
+
+.support-wrapper{
+    width: 100vw;
+    background-image: url(./img/_\ \(3\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100vw;
+    height: fit-content;
+    padding-top: 230px;
+    padding-bottom: 300px;
+    
+}
+
+
+.support-btn1{
+
+    color: rgb(248, 245, 239);
+    border: 1px solid  rgb(248, 245, 239) ;
+}
+.support-main{
+    font-family: Instrument serif;
+    font-size: 65px;
+    letter-spacing: 0.1px;
+    margin: 0px auto;
+    color: rgb(248, 245, 239);
+    margin-top: 40px;
+}
+
+.support-para{
+     font-family: inter;
+    font-size: 21px;
+    letter-spacing: -0.6px;
+    color: rgb(248, 245, 239);
+
+}
+
+.support-btn2{
+        font-family: Inter;
+    font-size: 16px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    background-color: rgb(246, 212, 255);
 }
